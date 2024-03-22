@@ -1,0 +1,27 @@
+# Log files
+# Ignorar arquivos de log padrão gerados por ferramentas de desenvolvimento
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules and distribution folders
+# Diretórios gerados automaticamente que não precisam ser rastreados pelo controle de versão
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor-specific files and directories
+# Ignorar configurações e arquivos específicos de editores de código para evitar conflitos de configuração
+.vscode/  # Ignorar todos os arquivos no diretório .vscode
+!.vscode/extensions.json  # Exceto extensions.json que pode ser necessário para manter a consistência do ambiente
+.idea/
+.DS_Store  # Arquivos específicos do macOS que armazenam atributos personalizados do diretório
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?  # Vim swap files
